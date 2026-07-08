@@ -10,9 +10,9 @@ final class MouseController {
         case left, right
     }
 
-    private let minSpeed: CGFloat = 250 // px/s
-    private let maxSpeed: CGFloat = 3000 // px/s
-    private let rampDuration: TimeInterval = 0.8
+    private let minSpeed: CGFloat = 350 // px/s
+    private let maxSpeed: CGFloat = 4200 // px/s
+    private let rampDuration: TimeInterval = 0.6
 
     private var heldDirections: Set<Direction> = []
     private var timer: Timer?
